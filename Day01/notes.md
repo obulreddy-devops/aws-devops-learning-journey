@@ -4,7 +4,7 @@ Topic Learned
 Cloud computing means using servers, storage, and database over the internet instead of buying and maintaning our own server
 ex: electricty bill we pay only for what we use.
 
-#-AWS Overview(Amazon web services) is a cloud platform provided by Amazon.
+#-AWS Overview(Amazon web services)  💭 is a cloud platform provided by Amazon.
 AWS provides:
 servers
 storage
@@ -24,7 +24,7 @@ A avaiability zone is a data center inside a Region.
 Multiple Availability zones help kep applications running even if one data ceneter fails.
 
 ## Service Explored
-## IAM
+## IAM 🔐
 Identity and Access Management. is used by security
 ex:
 create users
@@ -32,14 +32,14 @@ manage permission
 control access
 
 
-## EC2
+## EC2 💻
 Elastic compute cloud is a virtual server in AWS.
 uses:
 Host websites
 Run applications
 Deploy services
 
-## S3
+## S3 🪣
 simple storage service is used for storage files.
 uses:
 images
