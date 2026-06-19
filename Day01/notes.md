@@ -1,7 +1,7 @@
 # Day 1 - AWS Fundamentals
 Topic Learned
 #-cloud computing ?
-Cloud computing means using servers, storage, and database over the internet instead of buying nad maintaning our own server
+Cloud computing means using servers, storage, and database over the internet instead of buying and maintaning our own server
 ex: electricty bill we pay only for what we use.
 
 #-AWS Overview(Amazon web services) is a cloud platform provided by Amazon.
