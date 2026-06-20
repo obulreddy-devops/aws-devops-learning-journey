@@ -72,5 +72,10 @@ S3 = Storage system
  AWS CLI = Automated tool
 Real Devops = EC2 + IAM + S3 integration
 
+## SSH connection commands ##
+cd downloads
+ls
+chmod 400 dev-key-2.pem -- key pair command
+ssh -i "dev-key-2.pem" ec2-user @public-ip-address pasted
 ##Interview##
 I performed AWS CLI-Based automation using EC2, IAM Role, and s3 integration with real file transfer
