@@ -1,0 +1,7 @@
+Deploy Jenkins
+
+Open terminal cd directory downloads
+And check the lists -- command-ls
+chmod 600 dev-key-3.pem
+ssh -i dev-key-3.pem ubuntu@copy address of instances
+
