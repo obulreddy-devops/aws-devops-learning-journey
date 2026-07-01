@@ -4,4 +4,28 @@ Open terminal cd directory downloads
 And check the lists -- command-ls
 chmod 600 dev-key-3.pem
 ssh -i dev-key-3.pem ubuntu@copy address of instances
+After ubuntu open next check whoami
+sudo apt update
+apt update
+java installing command-- apt install fontconfig openjdk-21-jre
+click on y after all package sinstall
+check java version ---  java --version
+Jenkins installation
+sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian/jenkins.io-2026.key
+echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
+  https://pkg.jenkins.io/debian binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt update
+sudo apt install jenkins
+--2026-06-26 12:56:02--  https://pkg.jenkins.io/debian/jenkins.io-2026.key
+Resolving pkg.jenkins.io (pkg.jenkins.io)... 151.101.210.133, 2a04:4e42:31::645
+Connecting to pkg.jenkins.io (pkg.jenkins.io)|151.101.210.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1680 (1.6K) [application/octet-stream]
+Saving to: ‘/etc/apt/keyrings/jenkins-keyring.asc’
 
+next change instance of inbound values values and run the port jenkins portal working
+
+
+Finally jenkins deploy in inside ec2.
