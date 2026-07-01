@@ -1,0 +1,11 @@
+deploy in python and check the NACL and SG
+open terminal and change the directory cd  downloads
+ls
+select keypair
+ssh -i keypair ubuntu@paste ip address
+sudo apt update
+python3
+Deploy server of 8000 --python3 -m http server 8000
+open instance annd click on security group
+modify the inbound rules
+and open new table of vpc and click on NACL after inbound values edit and add rule now check the ports or working or not
